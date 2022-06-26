@@ -1,0 +1,48 @@
+header{
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: cyan;
+  display: flex;
+  align-items: center;
+}
+
+.content{
+  display: flex;
+  flex-dirextion: row;
+  margin-top: 70px;
+}
+
+main{
+  background: red;
+  flex-grow: 4;
+  height: 500px;
+}
+aside{
+  flex-grow: 1;
+  height: 500px;
+}
+#leftAside{
+  background: orange;
+  margin-right: 17px;
+}
+
+#rightAside{
+ background: purple;
+ margin-left: 17px;
+}
+
+.blackBox{
+  height: 50px;
+  width: 50px; 
+  background: black;
+  position: fixed;
+  top: 350px;
+  left: 70%;
+}
+
+footer{
+  height: 80px;
+  background: blue;
+}
